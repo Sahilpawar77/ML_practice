@@ -1301,3 +1301,14 @@ with st.expander("Show Raw Daily Forecast Data"):
 
 with st.expander("Show Raw Hourly Forecast Data"):
     st.dataframe(hourly_df, use_container_width=True)
+
+error1:- 
+
+File "/opt/streamlit-runtime/.venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+File "/opt/streamlit-runtime/.venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 789, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "/opt/streamlit-runtime/streamlit_app.py", line 3, in <module>
+    import plotly.express as px
